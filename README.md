@@ -1,4 +1,4 @@
-# AppServiceSecurityRunbook
+# Azure App Service Security Runbook
 The runbook will raise an error if a created or updated App Service is not running App Service Security. It uses the Microsoft Azure [Event Grid][4] to detect real-time changes to an app serivce that will activate this powershell runbook via a webhook. 
  
 
