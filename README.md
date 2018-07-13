@@ -5,11 +5,11 @@ The runbook will raise an error if a created or updated App Service is not runni
 ![alt text][AppServiceFunctions]
 ![alt text][AppServiceWebApp]
 
-Prerequisites: 
+## Prerequisites: 
  * An [Azure Automation Account][1]
  * An "[AzureRunAsConnection][2]" asset the Automation Account
 
-Usage Instructions
+## Usage Instructions
 Please refer to the [Integrate Azure Automation with Event Grid and Microsoft Teams][3], instead of finding a runbook in the gallery click "Add a runbook" and copy the text of "AppServiceSecurityRunbook" to the editor.  Instead of creating a VM to trigger the runbook, create a web app or function app. 
 
 [1]: https://azure.microsoft.com/en-us/services/automation/
